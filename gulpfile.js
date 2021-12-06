@@ -49,7 +49,7 @@ function esDir (dir, opts = {}) {
       for (const f of files) {
         await fs.promises.unlink(f).catch(e => {})
       }
-      console.log('Cleaned dir: ', dir_path)
+      console.log('Cleaned dir: ', path.join(_release_dir, dir))
     } else {
       console.log('File/dir not exists: ', dir_path)
     }

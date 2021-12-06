@@ -1,0 +1,126 @@
+---
+- id: 1
+  name: Globe
+  short_name: Globe
+  description:
+  sort_number: 0
+  supports_regular_denom: true
+  is_available: true
+
+- id: 2
+  name: SMART
+  short_name: SMART
+  description:
+  sort_number: 1
+  supports_regular_denom: true
+  is_available: true
+
+- id: 3
+  name: SUN
+  short_name: SUN
+  description:
+  sort_number: 2
+  supports_regular_denom: true
+  is_available: true
+
+- id: 4
+  name: TNT
+  short_name: TNT
+  description:
+  sort_number: 3
+  supports_regular_denom: true
+  is_available: true
+
+- id: 5
+  name: TM
+  short_name: TM
+  description:
+  sort_number: 4
+  supports_regular_denom: true
+  is_available: true
+
+- id: 6
+  name: SMART BRO
+  short_name: SMART BRO
+  description:
+  sort_number: 5
+  is_available: false # disable for now
+
+- id: 7
+  name: CHERRY PREPAID
+  short_name: CHERRY PREPA.
+  description:
+  sort_number: 7
+  supports_regular_denom: true
+  is_available: true
+
+- id: 8
+  name: CIGNAL
+  short_name: CIGNAL
+  description:
+  sort_number: 8
+  is_available: true
+
+- id: 9
+  name: GSAT
+  short_name: GSAT
+  description:
+  sort_number: 9
+  is_available: true
+
+- id: 10
+  name: SKY CABLE
+  short_name: SKY CABLE
+  description:
+  sort_number: 10
+  is_available: true
+
+- id: 11
+  name: GAME PINS
+  short_name: GAME PINS
+  description:
+  sort_number: 11
+  is_available: true
+
+- id: 12
+  name: PLDT PREPAID
+  short_name: PLDT
+  description:
+  sort_number: 12
+  is_available: false # disable
+
+- id: 13
+  name: MERALCO PREPAID
+  short_name: MERALCO
+  description:
+  sort_number: 13
+  is_available: true
+
+- id: 14
+  name: iWanTV
+  short_name: iWanTV
+  description:
+  sort_number: 14
+  is_available: false
+
+- id: 15
+  name: iFlix
+  short_name: iFlix
+  description:
+  sort_number: 15
+  is_available: false
+
+- id: 16
+  name: DITO
+  short_name: DITO
+  description:
+  sort_number: 16
+  is_available: true
+  supports_regular_denom: true
+
+- id: 17
+  name: GCASH CASH-IN
+  short_name: GCASH CASH-IN
+  description:
+  sort_number: 17
+  is_available: true

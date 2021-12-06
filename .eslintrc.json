@@ -1,0 +1,30 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es2021": true,
+    "mocha": true
+  },
+  "extends": [
+    "standard"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 12
+  },
+  "rules": {
+    "camelcase": "off",
+    "prefer-const": "off",
+    "no-var": "off",
+    "one-var": "off",
+    "spaced-comment": "off",
+    "prefer-promise-reject-errors": "off",
+    "object-curly-spacing": "off",
+    "no-prototype-builtins": "off",
+    "valid-typeof": "off"
+  },
+  "ignorePatterns": [
+    "web-admin/**/*.js",
+    "captive-portal/**/*.js"
+  ]
+}

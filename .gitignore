@@ -2,7 +2,8 @@ node_modules/*
 /coverage
 /release
 /plugins
-src/@adopisoft
+src/@adopisoft/*
+!src/@adopisoft/.gitkeep
 src/plugins
 src/test
 src/pluginsx

@@ -75,8 +75,8 @@ function esDir (dir, opts = {}) {
   )
 }
 
-function esPlugin (dir) {
-  return esDir(dir, {
+function esPlugin (plugin_dir) {
+  return esDir(plugin_dir, {
     srcBaseDir: 'src/plugins',
     releaseBaseDir: 'plugins'
   })
@@ -89,4 +89,7 @@ exports.default = parallel(
   esDir('plugins', {srcBaseDir: 'src', releaseBaseDir: '.'})
 )
 
-exports.plugin = esPlugin
+exports.esApp = esDir('app')
+exports.esCore = esDir('core')
+exports.esRepairUpgrade = esDir('repair-upgrade')
+exports.plugin = esPlugin(process.env.PLUGIN_DIR)

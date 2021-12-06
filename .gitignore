@@ -1,7 +1,9 @@
 node_modules/*
-/coverage
-/release
-/plugins
+coverage/*
+release/@adopisoft/app/*
+release/@adopisoft/core/*
+release/@adopisoft/repair-upgrade/*
+plugins/*
 src/@adopisoft/*
 !src/@adopisoft/.gitkeep
 src/plugins

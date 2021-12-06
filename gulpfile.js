@@ -86,8 +86,7 @@ exports.default = parallel(
   esDir('app'),
   esDir('core'),
   esDir('repair-upgrade'),
-  esDir('plugins', {srcBaseDir: 'src', releaseBaseDir: '.'}),
-  esDir('require-jse', {srcBaseDir: 'src', releaseBaseDir: 'release'})
+  esDir('plugins', {srcBaseDir: 'src', releaseBaseDir: '.'})
 )
 
 exports.plugin = esPlugin

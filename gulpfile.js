@@ -30,7 +30,7 @@ function es (stream) {
 }
 
 function esDir (dir, opts = {}) {
-  const _src_dir = typeof opts.srcBaseDir === 'string' ? opts.srcBaseDir : 'src/@adopisoft'
+  const _src_dir = typeof opts.srcBaseDir === 'string' ? opts.srcBaseDir : 'src'
   const _release_dir = typeof opts.releaseBaseDir === 'string' ? opts.releaseBaseDir : 'release/@adopisoft'
 
   async function clean () {
@@ -75,21 +75,14 @@ function esDir (dir, opts = {}) {
   )
 }
 
-function esPlugin (plugin_dir) {
-  return esDir(plugin_dir, {
-    srcBaseDir: 'src/plugins',
-    releaseBaseDir: 'plugins'
-  })
-}
-
 exports.default = parallel(
   esDir('app'),
   esDir('core'),
   esDir('repair-upgrade'),
-  esDir('plugins', {srcBaseDir: 'src', releaseBaseDir: '.'})
+  esDir('plugins')
 )
 
 exports.esApp = esDir('app')
 exports.esCore = esDir('core')
 exports.esRepairUpgrade = esDir('repair-upgrade')
-exports.plugin = esPlugin(process.env.PLUGIN_DIR)
+exports.plugin = esDir(process.env.PLUGIN_DIR)

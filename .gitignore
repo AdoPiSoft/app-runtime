@@ -3,9 +3,9 @@ coverage/*
 release/@adopisoft/app/*
 release/@adopisoft/core/*
 release/@adopisoft/repair-upgrade/*
-plugins/*
-src/@adopisoft/*
-!src/@adopisoft/.gitkeep
+release/@adopisoft/plugins/*
+src/*
+!src/.gitkeep
 src/plugins
 src/test
 src/pluginsx

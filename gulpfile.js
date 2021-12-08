@@ -15,7 +15,7 @@ console.log('DROP_CONSOLE?', drop_console)
 console.log('LITE?', lite)
 
 function es (stream) {
-  if (!debug || drop_console) {
+  if ((prod && !debug) || drop_console) {
     return stream.pipe(terser({
       module: true,
       toplevel: true,

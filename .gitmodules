@@ -1,0 +1,6 @@
+[submodule "web-admin"]
+	path = web-admin
+	url = git@github.com:AdoPiSoft/web-admin.git
+[submodule "user-portal"]
+	path = user-portal
+	url = git@github.com:AdoPiSoft/user-portal.git

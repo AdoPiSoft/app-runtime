@@ -15,15 +15,29 @@ SRC_APP="$APPDIR/src/app"
 SRC_CORE="$APPDIR/src/core"
 SRC_REPAIR="$APPDIR/src/repair-upgrade"
 
-if [ -d "$SRC_APP" ] ;then
-  gulp esApp
-fi
-if [ -d "$SRC_CORE" ] ;then
-  gulp esCore
-fi
-if [ -d "$SRC_REPAIR" ] ;then
-  gulp esRepairUpgrade
-fi
+build_app() {
+  if [ -d "$SRC_APP" ] ;then
+    gulp esApp
+  fi
+}
+
+build_core() {
+  if [ -d "$SRC_CORE" ] ;then
+    gulp esCore
+  fi
+}
+
+build_repair_upgrade() {
+  if [ -d "$SRC_REPAIR" ] ;then
+    gulp esRepairUpgrade
+  fi
+}
+
+build_app &
+build_core &
+build_repair_upgrade &
+
+wait
 
 node ./validate-translations.js && \
   node ./migrate.js && \

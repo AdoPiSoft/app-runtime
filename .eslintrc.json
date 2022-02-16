@@ -25,6 +25,7 @@
   },
   "ignorePatterns": [
     "web-admin/**/*.js",
-    "captive-portal/**/*.js"
+    "captive-portal/**/*.js",
+    "release/**/*.js"
   ]
 }

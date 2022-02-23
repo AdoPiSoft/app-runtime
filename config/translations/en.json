@@ -127,6 +127,9 @@
   "E125": "Storage is not expandable",
   "E126": "No error logs found!",
   "E127": "System encounters error while generating log report.",
+  "E128": "Phone has pending confirmation.",
+  "E129": "Email has pending confirmation.",
+  "E130": "$1 is invalid in ($2) country code.",
   "P001": "Manage admin accounts (super admin)",
   "P002": "Manage wifi users and sessions",
   "P003": "Edit network interfaces",
@@ -146,5 +149,4 @@
   "P017": "Download backup settings",
   "P018": "Restore backup file",
   "P019": "View license key"
-
 }

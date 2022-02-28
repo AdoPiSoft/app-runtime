@@ -129,7 +129,6 @@
   "E127": "Sistem mengalami kesalahan saat membuat laporan log.",
   "E128": "Telepon memiliki konfirmasi yang tertunda.",
   "E129": "Email memiliki konfirmasi yang tertunda.",
-  "E130": "$1 Tidak valid di ($2) Kode negara.",
   "P001": "Kelola pengguna admin (super admin)",
   "P002": "Kelola pengguna dan sesi wifi",
   "P003": "Edit antarmuka jaringan",

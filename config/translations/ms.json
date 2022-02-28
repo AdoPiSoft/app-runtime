@@ -127,6 +127,8 @@
   "E125": "Penyimpanan tidak boleh dikembangkan",
   "E126": "Tiada log ralat ditemui!",
   "E127": "Sistem menghadapi ralat semasa menjana laporan log.",
+  "E128": "Telefon mempunyai pengesahan yang belum selesai.",
+  "E129": "E-mel mempunyai pengesahan yang belum selesai.",
   "P001": "Urus akaun pentadbir (pentadbir super)",
   "P002": "Urus sesi pengguna dan wifi",
   "P003": "Urus network interfaces",

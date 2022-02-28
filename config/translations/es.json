@@ -127,6 +127,8 @@
   "E125": "El almacenamiento no se puede expandir",
   "E126": "¡No se encontraron registros de errores!",
   "E127": "El sistema encuentra un error al generar el informe de registro.",
+  "E128": "El teléfono tiene pendiente de confirmación.",
+  "E129": "El correo electrónico tiene confirmación pendiente.",
   "P001": "Gestionar cuentas de administrador (super admin)",
   "P002": "Gestionar usuarios y sesiones wifi",
   "P003": "Administrar interfaces de red",

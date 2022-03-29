@@ -145,5 +145,8 @@
   "P016": "Mematikan/Menyalakan Ulang Mesin",
   "P017": "Unduh pengaturan cadangan",
   "P018": "Pulihkan file cadangan",
-  "P019": "Lihat kunci lisensi"
+  "P019": "Lihat kunci lisensi",
+  "P020": "Lihat Log Sistem",
+  "P021": "Lihat Informasi Perangkat",
+  "P022": "Kelola Pengaturan Jadwal Sistem"
 }

@@ -145,6 +145,8 @@
   "P016": "Shutdown/Reboot machine",
   "P017": "Download backup settings",
   "P018": "Restore backup file",
-  "P019": "View license key"
-
+  "P019": "View license key",
+  "P020": "View System Logs",
+  "P021": "View Device Information",
+  "P022": "Manage System Schedule Settings"
 }

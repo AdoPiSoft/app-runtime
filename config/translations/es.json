@@ -145,5 +145,8 @@
   "P016": "Apagar/Reiniciar la máquina",
   "P017": "Descargar la configuración de la copia de seguridad",
   "P018": "Restaurar archivo de respaldo",
-  "P019": "Ver clave de licencia"
+  "P019": "Ver clave de licencia",
+  "P020": "Ver registros del sistema",
+  "P021": "Ver información del dispositivo",
+  "P022": "Administrar la configuración de programación del sistema"
 }
